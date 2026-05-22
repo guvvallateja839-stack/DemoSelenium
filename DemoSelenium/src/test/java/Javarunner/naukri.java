@@ -11,6 +11,7 @@ import io.cucumber.junit.CucumberOptions;
         tags = "@nukari",
           plugin = {
                 "pretty",
+                "json:target/cucumber.json",
                 "html:target/cucumber-report.html"
         },
         monochrome = true

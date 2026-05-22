@@ -12,6 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 	        tags = "@Link",
 	          plugin = {
 	                "pretty",
+	                "json:target/cucumber.json",
 	                "html:target/cucumber-report.html"
 	        },
 	        monochrome = true
